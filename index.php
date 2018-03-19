@@ -8,7 +8,7 @@ use Acme\Hello\World\ClassB;
 require_once __DIR__ . '/bootstrap.php';
 
 $a = new ClassA();
-echo $a->load_class();
+$a->load_class();
 
 $c = new ClassC();
 $c->load_class();
